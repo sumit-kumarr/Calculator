@@ -1,0 +1,43 @@
+.calculator {
+    width: 300px;
+    margin: 100px auto;
+    text-align: center;
+    background-color:rgb(8, 5, 5);
+    height: 400px;
+}
+
+#display {
+    width: 85%;
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 30px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+}
+
+button {
+    padding: 10px;
+    font-size: 18px;
+    background-color: black;
+    color: blue;
+    font-size: 40px;
+}
+button:hover{
+    background-color: black;
+    color: aliceblue;
+    font-weight: bold;
+}
+body{
+    background-color: blue;
+}
+.footer{
+    text-align: center;
+    color: brown;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
